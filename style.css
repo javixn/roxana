@@ -1,0 +1,75 @@
+body {
+
+    background-color: rgb(9, 111, 175);
+}
+
+
+h1 {
+font-size: 100px;
+color: rgb(174, 108, 231);
+font-family: Luckiest Guy;
+text-align: center;
+
+}
+
+.imagen {
+  
+    text-align: center;
+
+
+}
+.contenedor {
+    display: flex;                 /* Activamos Flexbox */
+    flex-direction: column;            
+    justify-content: center;      /* Centra los botones horizontalmente */
+    align-items: center;          /* Centra los botones verticalmente */
+    gap: 15px;
+} 
+
+
+
+.botonsi {
+    
+    font-family: Paytone One ;
+    font-size: 30px;
+    color: black;
+    background-color: greenyellow;
+    border: none ;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: auto;
+    border-radius: 5px;
+    
+
+}
+button:hover {
+    color: white;
+    background-color: darkgreen;
+}
+
+
+
+.botonno { 
+   
+    font-family: Paytone One;
+    font-size: 30px;
+    color:black;
+    background-color: brown;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: auto;
+    border-radius: 5px;
+   
+
+}
+.botonno:hover {
+ color: white;
+ background-color: rgb(229, 27, 27);
+}
+p {
+ font-family: Paytone One;
+ font-size: 20px;
+ text-align: center ;
+ color: rgb(242, 247, 255);
+}
